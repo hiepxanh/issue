@@ -1,0 +1,30 @@
+[debug] [2017-10-13T03:51:54.392Z] ----------------------------------------------------------------------
+[debug] [2017-10-13T03:51:54.397Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\hiepx\AppData\Roaming\npm\node_modules\firebase-tools\bin\firebase serve --only functions
+[debug] [2017-10-13T03:51:54.399Z] CLI Version:   3.13.1
+[debug] [2017-10-13T03:51:54.399Z] Platform:      win32
+[debug] [2017-10-13T03:51:54.399Z] Node Version:  v7.7.1
+[debug] [2017-10-13T03:51:54.401Z] Time:          Fri Oct 13 2017 10:51:54 GMT+0700 (SE Asia Standard Time)
+[debug] [2017-10-13T03:51:54.401Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2017-10-13T03:51:54.423Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2017-10-13T03:51:54.424Z] > authorizing via signed-in user
+[debug] [2017-10-13T03:51:54.427Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/quickstart-9ddcf  
+ Fri Oct 13 2017 10:51:54 GMT+0700 (SE Asia Standard Time)
+[debug] [2017-10-13T03:51:55.481Z] <<< HTTP RESPONSE 200
+[debug] [2017-10-13T03:51:55.483Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/quickstart-9ddcf/tokens  
+ Fri Oct 13 2017 10:51:55 GMT+0700 (SE Asia Standard Time)
+[debug] [2017-10-13T03:51:56.260Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from 'C:\Users\hiepx\Documents\battlefield\quyen anh website\quyenanhkt-1-5-0-beta-4'...
+[info] 
+[info] i  functions: Preparing to emulate functions.
+[debug] [2017-10-13T03:51:56.738Z] >>> HTTP REQUEST GET https://appengine.googleapis.com/v1/apps/quickstart-9ddcf  
+ Fri Oct 13 2017 10:51:56 GMT+0700 (SE Asia Standard Time)
+[debug] [2017-10-13T03:51:56.739Z] >>> HTTP REQUEST GET https://apikeys.googleapis.com/v1/projects/quickstart-9ddcf/apiKeys  
+ Fri Oct 13 2017 10:51:56 GMT+0700 (SE Asia Standard Time)
+[debug] [2017-10-13T03:51:58.212Z] <<< HTTP RESPONSE 200
+[debug] [2017-10-13T03:51:58.278Z] <<< HTTP RESPONSE 200
+[warn] !  functions: Failed to load functions source code. Ensure that you have the latest SDK by running npm i --save firebase-functions inside the functions directory.
+[warn] !  functions: Error from emulator. FirebaseError: Error occurred while parsing your function triggers.
+
+undefined
